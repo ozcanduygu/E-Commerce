@@ -1,0 +1,48 @@
+import { ChevronDown } from "lucide-react";
+
+export default function Navbar() {
+  return (
+    <nav className="flex items-center space-x-8 text-[#737373] text-sm font-medium">
+
+      <a href="#" className="hover:text-black">Home</a>
+
+      {/* ▼--- DROPDOWN START ---▼ */}
+      <div className="relative group">
+        <button className="flex items-center gap-1 hover:text-black">
+          Shop <ChevronDown size={16} />
+        </button>
+
+        {/* DROPDOWN BOX */}
+        <div className="absolute left-0 top-full mt-3 hidden group-hover:block 
+                        bg-white shadow-lg p-6 w-[350px] z-50">
+
+          <div className="grid grid-cols-2 gap-10 text-[#252B42]">
+
+            <div className="space-y-3">
+              <p className="font-semibold">Kadın</p>
+              <p className="hover:text-black cursor-pointer">Bags</p>
+              <p className="hover:text-black cursor-pointer">Belts</p>
+              <p className="hover:text-black cursor-pointer">Cosmetics</p>
+              <p className="hover:text-black cursor-pointer">Hats</p>
+            </div>
+
+            <div className="space-y-3">
+              <p className="font-semibold">Erkek</p>
+              <p className="hover:text-black cursor-pointer">Bags</p>
+              <p className="hover:text-black cursor-pointer">Belts</p>
+              <p className="hover:text-black cursor-pointer">Cosmetics</p>
+              <p className="hover:text-black cursor-pointer">Hats</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {/* ▲--- DROPDOWN END ---▲ */}
+
+      <a href="#" className="hover:text-black">About</a>
+      <a href="#" className="hover:text-black">Blog</a>
+      <a href="#" className="hover:text-black">Contact</a>
+      <a href="#" className="hover:text-black">Pages</a>
+    </nav>
+  );
+}
