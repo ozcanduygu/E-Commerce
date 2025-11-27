@@ -5,6 +5,7 @@ import HeaderBottom from './components/HeaderBottom'
 import 'keen-slider/keen-slider.min.css';
 import { Car } from 'lucide-react';
 import CarouselTop from './components/CarouselTop';
+import EditorsPick from './components/EditorsPick';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <HeaderTop/>
     <HeaderBottom/>
     <CarouselTop/>
+    <EditorsPick/>
    </div>
   )
 }
