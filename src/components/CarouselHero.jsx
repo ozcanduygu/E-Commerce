@@ -12,11 +12,11 @@ export default function CarouselHero() {
 
   return (
     <div ref={sliderRef} className="keen-slider w-full">
-      <div className="keen-slider__slide w-full relative bg-[#23856D] h-[709px]">
+      <div className="keen-slider__slide w-[509px] relative bg-[#23856D] h-[709px] font-montserrat">
         <div className="max-w-[1420px] mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center gap-10 py-20 h-full">
 
           {/* SOL DIV */}
-          <div className="flex-1 flex flex-col justify-center space-y-4 h-full text-white">
+          <div className="flex-1 flex flex-col justify-center space-y-4 h-full font-montserrat text-white">
             <h5 className="text-[#A0E1D8] font-semibold text-sm uppercase">
               Summer 2020
             </h5>
@@ -29,20 +29,20 @@ export default function CarouselHero() {
 
             <div className="flex items-center gap-6 mt-4">
               <p className="text-2xl font-bold">
-                $149.99
+                $16.48
               </p>
-              <button className="bg-[#23A6F0] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1b8ac8] transition">
+              <button className="bg-[#2DC071] text-white px-6 py-3 rounded-md font-semibold transition">
                 Add to Cart
               </button>
             </div>
           </div>
 
           {/* SAĞ DIV */}
-          <div className="flex-1 flex justify-center items-center h-full">
+          <div className="flex-1 flex justify-center items-center font-montserrat h-full">
             <img 
               src={heroImage} 
               alt="Vita Classic Product" 
-              className="object-contain h-[685px]"
+              className="object-contain h-[600px] mt-30"
             />
           </div>
 

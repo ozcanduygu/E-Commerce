@@ -18,31 +18,31 @@ export default function EditorsPick() {
 
             {/* Fotoğraf Alanı */}
             <div className="max-w-6xl mx-auto px-4 py-10 flex gap-4">
-                <div className="flex-1 relative h-[400px] rounded-xl overflow-hidden">
+                <div className="flex-1 relative h-[500px] w-[510px] overflow-hidden ">
                     <img src={editorspick1} alt="men" className="w-full h-full object-cover" />
-                    <button className="absolute bottom-5 left-5 bg-white px-4 py-2 rounded-md shadow font-semibold">
+                    <button className="absolute bottom-5 left-5 bg-white px-4 py-2 w-[170px]text-[#252B42] shadow font-semibold">
                         MEN
                     </button>
                 </div>
 
-                <div className="flex-1 relative h-[400px] rounded-xl overflow-hidden">
+                <div className="flex-1 relative h-[500px] w-[240px] overflow-hidden">
                     <img src={editorspick2} alt="women" className="w-full h-full object-cover" />
-                    <button className="absolute bottom-5 left-5 bg-white px-4 py-2 rounded-md shadow font-semibold">
+                    <button className="absolute bottom-5 left-5 bg-white px-4 py-2 shadow text-[#252B42] font-semibold">
                         WOMEN
                     </button>
                 </div>
 
-                <div className="flex-1 flex flex-col gap-4">
-                    <div className="relative h-[190px] rounded-xl overflow-hidden">
-                        <img src={editorspick3} alt="accessories" className="w-full h-full object-cover" />
-                        <button className="absolute bottom-5 left-5 bg-white px-4 py-2 rounded-md shadow font-semibold">
+                <div className="flex-1 flex flex-col h-[500px] gap-4">
+                    <div className="relative h-[242px] overflow-hidden">
+                        <img src={editorspick3} alt="accessories" className="w-full h-full object-cover object-[center_20%]" />
+                        <button className="absolute bottom-5 left-5 bg-white px-4 py-2 text-[#252B42] shadow font-semibold">
                             ACCESSORIES
                         </button>
                     </div>
 
-                    <div className="relative h-[190px] rounded-xl overflow-hidden">
-                        <img src={editorspick4} alt="kids" className="w-full h-full object-cover" />
-                        <button className="absolute bottom-5 left-5 bg-white px-4 py-2 rounded-md shadow font-semibold">
+                    <div className="relative h-[242px] overflow-hidden">
+                        <img src={editorspick4} alt="kids" className="w-full h-full object-cover object-[center_10%]" />
+                        <button className="absolute bottom-5 left-5 bg-white px-4 py-2 text-[#252B42] shadow font-semibold">
                             KIDS
                         </button>
                     </div>

@@ -11,6 +11,8 @@ import CarouselHero from './components/CarouselHero';
 import CollectionShowcase from './components/CollectionShowcase';
 import BlogSection from './components/BlogSection';
 import FooterBanner from './components/FooterBanner';
+import Footer from './components/Footer';
+import MiniFooter from './components/MiniFooter';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
     <CollectionShowcase/>
     <BlogSection/>
     <FooterBanner/>
+    <Footer/>
+    <MiniFooter/> 
    </div>
   )
 }
