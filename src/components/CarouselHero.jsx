@@ -15,7 +15,6 @@ export default function CarouselHero() {
       <div className="keen-slider__slide w-[509px] relative bg-[#23856D] h-[709px] font-montserrat">
         <div className="max-w-[1420px] mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center gap-10 py-20 h-full">
 
-          {/* SOL DIV */}
           <div className="flex-1 flex flex-col justify-center space-y-4 h-full font-montserrat text-white">
             <h5 className="text-[#A0E1D8] font-semibold text-sm uppercase">
               Summer 2020
@@ -37,7 +36,6 @@ export default function CarouselHero() {
             </div>
           </div>
 
-          {/* SAĞ DIV */}
           <div className="flex-1 flex justify-center items-center font-montserrat h-full">
             <img 
               src={heroImage} 

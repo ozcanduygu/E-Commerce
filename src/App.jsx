@@ -13,12 +13,12 @@ import BlogSection from './components/BlogSection';
 import FooterBanner from './components/FooterBanner';
 import Footer from './components/Footer';
 import MiniFooter from './components/MiniFooter';
+import HeaderComponent from './components/HeaderComponent';
 
 function App() {
   return (
    <div>
-    <HeaderTop/>
-    <HeaderBottom/>
+    <HeaderComponent/>
     <CarouselTop/>
     <EditorsPick/>
     <BestSellerProducts/>

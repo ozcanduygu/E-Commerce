@@ -12,7 +12,7 @@ export default function CarouselTop() {
     slides: { perView: 1 },
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);
-    }
+    },
   });
 
   const slides = [carousel1, carousel1, carousel1];
@@ -20,7 +20,6 @@ export default function CarouselTop() {
 
   return (
     <div className="relative w-full h-screen">
-      {/* Slider */}
       <div ref={sliderRef} className="keen-slider w-full h-full">
         {slides.map((src, idx) => (
           <div key={idx} className="keen-slider__slide relative">
@@ -30,11 +29,16 @@ export default function CarouselTop() {
               className="w-full h-full object-cover"
             />
 
-            {/* Overlay İçerik */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-4">
-              <h4 className="text-lg md:text-xl font-medium mb-2">Summer 2020</h4>
-              <h1 className="text-3xl md:text-5xl font-bold mb-4">NEW COLLECTION</h1>
-              <h5 className="text-md md:text-lg font-light mb-6">We know how large objects will act,but things on a small scale.</h5>
+            <div className="absolute top-1/2 left-0 transform -translate-y-1/2 text-left font-montserrat text-white px-4 sm:px-6 md:px-16 lg:px-24">
+              <h4 className="text-sm sm:text-lg md:text-xl font-montserrat font-medium mb-2">
+                SUMMER 2020
+              </h4>
+              <h1 className="text-2xl sm:text-4xl md:text-5xl my-10 font-bold mb-4">
+                NEW COLLECTION
+              </h1>
+              <h5 className="text-xs sm:text-sm md:text-lg mt-10 w-[376px] font-light leading-10 mb-6">
+                We know how large objects will act,<br/> but things on a small scale.
+              </h5>
               <button className="bg-[#2DC071] hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded">
                 SHOP NOW
               </button>
