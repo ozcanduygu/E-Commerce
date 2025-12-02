@@ -1,34 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import HeaderTop from './components/HeaderTop'
-import HeaderBottom from './components/HeaderBottom'
-import 'keen-slider/keen-slider.min.css';
-import { Car } from 'lucide-react';
-import CarouselTop from './components/CarouselTop';
-import EditorsPick from './components/EditorsPick';
-import BestSellerProducts from './components/BestSellerProducts';
-import CarouselHero from './components/CarouselHero';
-import CollectionShowcase from './components/CollectionShowcase';
-import BlogSection from './components/BlogSection';
-import FooterBanner from './components/FooterBanner';
-import Footer from './components/Footer';
-import MiniFooter from './components/MiniFooter';
-import HeaderComponent from './components/HeaderComponent';
+import HomePage from './pages/HomePage';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import ShopPage from './pages/ShopPage';
 
 function App() {
   return (
-   <div>
-    <HeaderComponent/>
-    <CarouselTop/>
-    <EditorsPick/>
-    <BestSellerProducts/>
-    <CarouselHero/>
-    <CollectionShowcase/>
-    <BlogSection/>
-    <FooterBanner/>
-    <Footer/>
-    <MiniFooter/> 
-   </div>
+   
+      <Router>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/shop" component={ShopPage} />
+        </Switch>
+      </Router>
+    
   )
 }
 
