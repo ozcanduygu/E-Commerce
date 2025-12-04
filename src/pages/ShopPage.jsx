@@ -7,6 +7,7 @@ import ProductsSection from "../components/ProductsSection";
 import Footer from "../components/Footer";
 import MiniFooter from "../components/MiniFooter";
 import FooterBanner from "../components/FooterBanner";
+import BrandsLogo from "../components/BrandsLogos";
 
 export default function ShopPage() {
     return(
@@ -18,8 +19,9 @@ export default function ShopPage() {
             <CategoryGrid/>
             <FilterComponent/>
             <ProductsSection/>
-            <Footer/>
+            <BrandsLogo/>
             <FooterBanner/>
+            <Footer/>
             <MiniFooter/>
         </div>
     )

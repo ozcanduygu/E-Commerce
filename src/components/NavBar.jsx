@@ -1,15 +1,16 @@
 import { ChevronDown } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav className="hidden md:flex items-center space-x-8 text-[#737373] text-sm font-medium">
 
-      <a href="#" className="hover:text-black">Home</a>
+      <Link to="/" className="hover:text-black">Home</Link>
 
       <div className="relative group">
-        <button className="flex items-center gap-1 hover:text-black">
+        <Link to="/shop" className="flex items-center gap-1 hover:text-black">
           Shop <ChevronDown size={16} />
-        </button>
+        </Link>
 
         <div className="absolute left-0 top-full mt-3 hidden group-hover:block 
                         bg-white shadow-lg p-6 w-[350px] z-50">
