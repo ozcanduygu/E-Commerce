@@ -8,7 +8,7 @@ export default function ProductsSection(){
                 <ProductsCard/>
             </div>
             <div>
-                <button>ileri</button>
+                <button className="border-2">ileri</button>
                 <button>Geri</button>
             </div>
         </div>

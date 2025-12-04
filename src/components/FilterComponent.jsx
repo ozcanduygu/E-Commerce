@@ -6,7 +6,7 @@ export default function FilterComponent() {
     return(
         <div className="flex flex-row justify-between px-20 m-6 ">
             <div>
-                <h6>Showing all 12 results</h6>
+                <h6>Showing all 8 results</h6>
             </div>
             <div className="flex flex-row justify-between">
                 <h6 className="text-[#737373] font-montserrat">Views:</h6>

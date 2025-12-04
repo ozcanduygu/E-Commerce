@@ -15,6 +15,7 @@ export default function CategoryGrid() {
       <div
         className="
           grid
+          px-10
           grid-cols-1
           sm:grid-cols-2
           md:grid-cols-3
@@ -23,7 +24,7 @@ export default function CategoryGrid() {
         "
       >
         {categories.map((cat) => (
-          <div key={cat.id} className="relative w-full aspect-square rounded-lg overflow-hidden cursor-pointer">
+          <div key={cat.id} className="relative w-full aspect-square  overflow-hidden cursor-pointer">
 
             {/* Fotoğraf */}
             <img
