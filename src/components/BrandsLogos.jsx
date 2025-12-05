@@ -4,6 +4,7 @@ import logo2 from "../assets/logo2.png";
 import logo3 from "../assets/logo3.png";
 import logo4 from "../assets/logo4.png";
 import logo5 from "../assets/logo5.png";
+import logo6 from "../assets/logo6.png";
 
 export default function BrandsLogo() {
     return (
@@ -17,6 +18,7 @@ export default function BrandsLogo() {
                 <img src={logo3} className="w-16 md:w-20 object-contain" />
                 <img src={logo4} className="w-16 md:w-20 object-contain" />
                 <img src={logo5} className="w-16 md:w-20 object-contain" />
+                <img src={logo6} className="w-16 md:w-20 object-contain" />
             </div>
         </div>
     );
