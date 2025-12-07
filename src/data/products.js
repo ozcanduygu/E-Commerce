@@ -15,5 +15,6 @@ export const productsData =[
     {id:5, title: "Graphic Design", desc:"English Department", oldPrice: 16.48, newPrice: 6.48, image: cards5},
     {id:6, title: "Graphic Design", desc:"English Department", oldPrice: 16.48, newPrice: 6.48, image: cards6},
     {id:7, title: "Graphic Design", desc:"English Department", oldPrice: 16.48, newPrice: 6.48, image: cards7},
-    {id:8, title: "Graphic Design", desc:"English Department", oldPrice: 16.48, newPrice: 6.48, image: cards8}
+    {id:8, title: "Graphic Design", desc:"English Department", oldPrice: 16.48, newPrice: 6.48, image: cards8},
+    
 ]

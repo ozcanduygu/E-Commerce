@@ -5,6 +5,9 @@ import Footer from "../components/Footer";
 import MiniFooter from "../components/MiniFooter";
 import BrandsLogo from "../components/BrandsLogos";
 import ProductDetail from "../components/ProductDetail";
+import ProductDescription from "../components/ProductDescription";
+import BestProductsList from "../components/BestProductsList";
+import EditorsPick from "../components/EditorsPick";
 
 export default function ProductsDetalPage(){
     return(
@@ -14,6 +17,13 @@ export default function ProductsDetalPage(){
             </div>
             <div>
                 <ProductDetail/>
+                <ProductDescription/>
+                <BestProductsList/>  
+                <BrandsLogo/>
+                <FooterBanner/>
+                <Footer/>
+                <MiniFooter/>
+
             </div>
         </div>
     )
