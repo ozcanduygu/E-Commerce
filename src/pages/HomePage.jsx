@@ -9,7 +9,7 @@ import BlogSection from "../components/BlogSection";
 import FooterBanner from "../components/FooterBanner";
 import Footer from "../components/Footer";
 import MiniFooter from "../components/MiniFooter";
-import Navbar from "../components/Navbar";
+
 
 export default function HomePage() {
     return (
