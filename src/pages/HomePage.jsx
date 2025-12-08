@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderComponent from "../components/HeaderComponent";
 import CarouselTop from "../components/CarouselTop";
 import EditorsPick from "../components/EditorsPick";
 import BestSellerProducts from "../components/BestSellerProducts";
