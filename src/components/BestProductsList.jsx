@@ -23,10 +23,7 @@ export default function BestProductsList() {
     <h3 className="text-center font-montserrat text-2xl font-semibold text-[#252B42] my-6">
       BESTSELLER PRODUCTS
     </h3>
-
-    {/* İnce gri çizgi */}
     <div className="h-[1px] bg-gray-300 mb-6"></div>
-
     <ProductsCard />
   </div>
 );
