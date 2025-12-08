@@ -27,14 +27,14 @@ export default function HeaderBottom() {
 
       </div>
 
-      <div className="md:hidden flex flex-col items-center text-center pb-5 mt-2 space-y-3 text-[#737373] text-sm font-medium">
+      {/* <div className="md:hidden flex flex-col items-center text-center pb-5 mt-2 space-y-3 text-[#737373] text-sm font-medium">
         <a href="#">Home</a>
         <a href="#">Shop</a>
         <a href="#">About</a>
         <a href="#">Blog</a>
         <a href="#">Contact</a>
         <a href="#">Pages</a>
-      </div>
+      </div> */}
 
     </div>
   );

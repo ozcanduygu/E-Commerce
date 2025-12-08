@@ -39,7 +39,7 @@ export default function Navbar() {
 
       <a href="#" className="hover:text-black">About</a>
       <a href="#" className="hover:text-black">Blog</a>
-      <a href="#" className="hover:text-black">Contact</a>
+       <Link to="/contact" className="hover:text-black">Contact</Link>
       <a href="#" className="hover:text-black">Pages</a>
     </nav>
   );

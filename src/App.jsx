@@ -8,17 +8,13 @@ import ContactPage  from "./pages/ContactPage";
 function App() {
   return (
     <Router>
-
-      {/* TÜM SAYFALARDA HEADER */}
       <HeaderComponent />
-
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/shop" component={ShopPage} />
         <Route exact path ="/product" component={ProductsDetalPage}/>
         <Route exact path= "/contact" component= {ContactPage}/> 
       </Switch>
-
     </Router>
   );
 }
