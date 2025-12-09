@@ -4,6 +4,8 @@ import ShopPage from "./pages/ShopPage";
 import HeaderComponent from "./components/HeaderComponent";
 import ProductsDetalPage from "./pages/ProductDetilPage";
 import ContactPage  from "./pages/ContactPage"; 
+import TeamPage from "./pages/TeamPage";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route exact path="/shop" component={ShopPage} />
         <Route exact path ="/product" component={ProductsDetalPage}/>
         <Route exact path= "/contact" component= {ContactPage}/> 
+        <Route exact path="/team" component={TeamPage}/>
+        <Route exact path="/about" component={AboutPage}/>
       </Switch>
     </Router>
   );
